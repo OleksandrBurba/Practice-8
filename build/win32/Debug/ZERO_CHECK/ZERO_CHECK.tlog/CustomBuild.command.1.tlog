@@ -1,0 +1,10 @@
+^C:\USERS\АЛЕКСАНДР\DESKTOP\TICTACTOE_UPDATED\BUILD\CMAKEFILES\C702ED4445997EB86929E35025FCCEA1\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Александр/Desktop/TicTacToe_updated -BC:/Users/Александр/Desktop/TicTacToe_updated/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Александр/Desktop/TicTacToe_updated/build/TicTacToe.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
