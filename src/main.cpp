@@ -10,6 +10,7 @@ void showMenu() {
         cout << "2. Settings\n";
         cout << "2. Settings\n";
         cout << "3. Game History\n";
+        cout << "3. Game History\n";
         cout << "4. Exit\n";
         cout << "Choose an option: ";
         cout << "Choose an option: ";
