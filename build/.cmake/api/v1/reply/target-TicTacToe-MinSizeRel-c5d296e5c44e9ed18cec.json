@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "RelWithDebInfo/TicTacToe.exe"
+			"path" : "MinSizeRel/TicTacToe.exe"
 		},
 		{
-			"path" : "RelWithDebInfo/TicTacToe.pdb"
+			"path" : "MinSizeRel/TicTacToe.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -52,7 +52,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG -std:c++17"
 				}
 			],
 			"includes" : 
@@ -80,11 +80,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 2,
 			"id" : "GameLogic::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "TicTacToe::@6890427a1f51a3e7e1df",
@@ -93,11 +93,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:X86 /debug /INCREMENTAL",
+				"fragment" : "/machine:X86 /INCREMENTAL:NO",
 				"role" : "flags"
 			},
 			{
@@ -106,7 +106,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "RelWithDebInfo\\GameLogic.lib",
+				"fragment" : "MinSizeRel\\GameLogic.lib",
 				"role" : "libraries"
 			},
 			{

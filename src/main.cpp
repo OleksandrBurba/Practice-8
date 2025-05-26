@@ -6,9 +6,11 @@ void showMenu() {
     while (true) {
         cout << "\n=== TIC-TAC-TOE GAME ===\n";
         cout << "1. Start Game\n";
+        cout << "1. Start Game\n";
         cout << "2. Settings\n";
         cout << "3. Game History\n";
         cout << "4. Exit\n";
+        cout << "Choose an option: ";
         cout << "Choose an option: ";
         int choice;
         cin >> choice;
