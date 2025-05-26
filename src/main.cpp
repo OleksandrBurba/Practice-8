@@ -12,6 +12,7 @@ void showMenu() {
         cout << "3. Game History\n";
         cout << "3. Game History\n";
         cout << "4. Exit\n";
+        cout << "4. Exit\n";
         cout << "Choose an option: ";
         cout << "Choose an option: ";
         int choice;
