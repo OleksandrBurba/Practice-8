@@ -2,7 +2,7 @@ name: CI_BurbaOleksandr_Z-21
 
 on:
   push:
-    branches: [ "master", "dev" ]
+    branches: [ "master", "fev" ]
   pull_request:
     branches: [ "master" ]
 
