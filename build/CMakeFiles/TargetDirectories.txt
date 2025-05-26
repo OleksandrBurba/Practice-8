@@ -1,4 +1,0 @@
-C:/Users/Александр/Desktop/TicTacToe_updated/build/CMakeFiles/GameLogic.dir
-C:/Users/Александр/Desktop/TicTacToe_updated/build/CMakeFiles/TicTacToe.dir
-C:/Users/Александр/Desktop/TicTacToe_updated/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Александр/Desktop/TicTacToe_updated/build/CMakeFiles/ZERO_CHECK.dir

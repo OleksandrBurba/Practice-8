@@ -8,6 +8,7 @@ void showMenu() {
         cout << "1. Start Game\n";
         cout << "1. Start Game\n";
         cout << "2. Settings\n";
+        cout << "2. Settings\n";
         cout << "3. Game History\n";
         cout << "4. Exit\n";
         cout << "Choose an option: ";
